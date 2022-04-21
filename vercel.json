@@ -5,5 +5,11 @@
       "src": "./dist/src/index.js",
       "use": "@versel/node"
     }
+  ],
+  "routes": [
+    {
+      "src": "./dist/**/*",
+      "dest": "./dist"
+    }
   ]
 }
