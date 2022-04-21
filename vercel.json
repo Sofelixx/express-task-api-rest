@@ -1,7 +1,9 @@
 {
   "version": 2,
-  "build": {
-    "src": "./dist/src/index.js",
-    "use": "@versel/node"
-  }
+  "builds": [
+    {
+      "src": "./dist/src/index.js",
+      "use": "@versel/node"
+    }
+  ]
 }
