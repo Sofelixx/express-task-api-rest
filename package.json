@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "rest api de tareas",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "esbuild": "^0.14.36",
     "express": "^4.17.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.19.0",
