@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
-export const db = new Sequelize("task", "hkh18rd73s0q", "pscale_pw_Z2Myg3H0h3DoAIzVylT0PeYqh2ar1nWlFVJg4tRbq4U", {
-  host: "a6fat11636n9.aws-sa-east-1-1.psdb.cloud",
+export const db = new Sequelize("task", process.env["DB_USER"], process.env["DB_PASSWD"], {
+  host: process.env["DB_HOST"],
   dialect: "mysql",
   dialectOptions: {
     ssl: {
